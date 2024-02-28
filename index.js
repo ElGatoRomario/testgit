@@ -13,7 +13,7 @@ const getPosts = async (user) => {
 
   return posts;
 }
-
+// prueba de push request
 const getCommentsForEachPost = async (posts) => {
   const res = await Promise.all(posts.map(post => 
     fetch(`${url}/comments?postId=${post.id}&_limit=2`)  
