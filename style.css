@@ -10,7 +10,7 @@ h1{
     padding-top: 8px;
 }
 .bar{
-    background-color:#464b55
+    background-color:#464b55;
     padding: 10px;
     display: flex;  
 }
